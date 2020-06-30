@@ -5,7 +5,7 @@ problem 01: A builder is looking to build a row of N houses that can be of K dif
 """
 
 #Using dynamic programing
-def min_cost_house(cm, n, k):
+def min_cost_house(cm: list, n: int, k: int) -> int:
 
     # This problem was asked by Facebook.
 
